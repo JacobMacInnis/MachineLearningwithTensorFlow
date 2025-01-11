@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^0.1.17",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
     "lodash": "^4.17.11",
     "mnist-data": "^1.2.6",
     "node-remote-plot": "^1.2.0",

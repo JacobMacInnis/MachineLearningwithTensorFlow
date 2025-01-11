@@ -14,8 +14,8 @@ function extractColumns(data, columnNames) {
 module.exports = function loadCSV(
   filename,
   {
-    dataColumns = [],
-    labelColumns = [],
+    dataColumns = [], // what I use to predict
+    labelColumns = [], // what I want to predict
     converters = {},
     shuffle = false,
     splitTest = false
